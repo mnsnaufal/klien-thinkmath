@@ -15,7 +15,7 @@ const DataUser = () => {
 
     const deleteUser = async (id) => {
         try {
-            await axios.delete(`http://localhost:4000/user/${id}/deleteUser`)
+            await axios.delete(`https://admin-thinkmath.vercel.app/user/${id}/deleteUser`)
             alert('Berhasil Menghapus User')
             getUser()
         } catch (error) {
@@ -25,7 +25,7 @@ const DataUser = () => {
 
     const getUser = async () => {
         try {
-            const response = await axios.get("http://localhost:4000/user/getUsers")
+            const response = await axios.get("https://admin-thinkmath.vercel.app/user/getUsers")
             setUser(response.data)
         } catch (error) {
             console.log(error)

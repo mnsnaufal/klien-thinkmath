@@ -10,7 +10,7 @@ const AdminRegister = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        axios.post('http://localhost:4000/admin/registerAdmin', {
+        axios.post('https://admin-thinkmath.vercel.app/admin/registerAdmin', {
             username, password
         })
             .then(response => {

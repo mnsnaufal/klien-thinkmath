@@ -14,7 +14,7 @@ export default function FormLogin() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        axios.post('http://localhost:4000/user/login', { email, password, })
+        axios.post('https://admin-thinkmath.vercel.app/user/login', { email, password, })
             .then(response => {
                 const username = jwtDecode(response.data.token)
                 localStorage.setItem("username", username.username)

@@ -21,7 +21,7 @@ const ProfilePage = () => {
   }, []);
 
   const getUserByID = async () => {
-    const response = await axios.get(`http://localhost:4000/user/${id}/getUserByID`);
+    const response = await axios.get(`https://admin-thinkmath.vercel.app/user/${id}/getUserByID`);
     setUsername(response.data.username);
     setEmail(response.data.email);
     setNotlp(response.data.notlp)
@@ -31,7 +31,7 @@ const ProfilePage = () => {
   // const handleSubmit = async (e) => {
   //   e.preventDefault();
   //   try {
-  //     await axios.patch(`http://localhost:4000/user/${id}/updateUser`, {
+  //     await axios.patch(`https://admin-thinkmath.vercel.app/user/${id}/updateUser`, {
   //       username, notlp
   //     });
   //     alert('Username telah di ubah');
@@ -60,7 +60,7 @@ const ProfilePage = () => {
       };
   
       // Kirim permintaan ke backend
-      await axios.patch(`http://localhost:4000/user/${id}/updateUser`, updateData);
+      await axios.patch(`https://admin-thinkmath.vercel.app/user/${id}/updateUser`, updateData);
       alert('Profile telah diupdate');
       
       // Perbarui username di localStorage
@@ -80,7 +80,7 @@ const ProfilePage = () => {
 
   const handleLogout = () => {
     localStorage.removeItem("username")
-    axios.get('http://localhost:4000/user/logout')
+    axios.get('https://admin-thinkmath.vercel.app/user/logout')
       .then(res => {
         if (res.data.status) {
           alert("Terimakasih")

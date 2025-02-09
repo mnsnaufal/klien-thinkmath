@@ -8,7 +8,7 @@ export default function FormForgotPass() {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        await axios.post('http://localhost:4000/user/forgotpassword', { email })
+        await axios.post('https://admin-thinkmath.vercel.app/user/forgotpassword', { email })
             .then(response => {
                 if (response.data.status) {
                     alert("Check your email to reset your password link");

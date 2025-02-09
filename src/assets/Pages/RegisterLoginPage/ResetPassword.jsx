@@ -10,7 +10,7 @@ export default function ResetPassword() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        axios.post('http://localhost:4000/user/resetpassword', { password, token })
+        axios.post('https://admin-thinkmath.vercel.app/user/resetpassword', { password, token })
             .then(response => {
                 console.log(response);
                 alert("password berhasil di ubah");

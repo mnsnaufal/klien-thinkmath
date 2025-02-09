@@ -20,7 +20,7 @@ export default function FormRegister() {
     };
     const handleSubmit = (e) => {
         e.preventDefault()
-        axios.post("http://localhost:4000/user/register", { username, email, password, notlp })
+        axios.post("https://admin-thinkmath.vercel.app/user/register", { username, email, password, notlp })
             .then(response => {
                 console.log(response);
                 alert("Akun berhasil Ditambahkan")

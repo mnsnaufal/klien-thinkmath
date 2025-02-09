@@ -16,7 +16,7 @@ const ViewUser = () => {
     }, [])
 
     const getUserByID = async () => {
-        const response = await axios.get(`http://localhost:4000/user/${id}/getUserByID`)
+        const response = await axios.get(`https://admin-thinkmath.vercel.app/user/${id}/getUserByID`)
         setEmail(response.data.email)
         setUsername(response.data.username)
         setPassword(response.data.password)
