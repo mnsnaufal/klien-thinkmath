@@ -93,12 +93,12 @@ const ProfilePage = () => {
     <section className="w-full py-16 flex flex-col items-center h-screen overflow-y-scroll bg-blue-100">
       <nav
         data-aos="fade-down"
-        className="fixed top-0 right-0 mb-20 w-full z-50 bg-blue-500 border-b-4 border-white py-4 sm:py-0"
+        className="fixed top-0 right-0 mb-20 w-full z-50 bg-birutua border-b-4 border-white py-4 sm:py-0"
       >
         <div className="font-main">
           <div className="flex justify-center items-center ">
             <div className="py-9 flex">
-              <Link to='/HomePage' className="fixed top-3 left-6 bg-pink-500 text-white px-2 py-2 rounded-lg font-semibold text-lg hover:bg-pink-600">Kembali</Link>
+              <Link to='/HomePage' className="fixed top-3 left-6 bg-birumuda text-white px-2 py-2 rounded-lg font-semibold text-lg hover:bg-blue-400">Kembali</Link>
               <div onClick={handleLogout} className="fixed top-3 right-6 bg-pink-500 text-white px-2 py-2 rounded-lg font-semibold text-lg hover:bg-pink-600">Keluar</div>
             </div>
           </div>
@@ -158,7 +158,7 @@ const ProfilePage = () => {
             </div>
         </div>
 
-        <button type="submit" className="bg-pink-500 hover:bg-blue-500 text-white text-center w-full rounded-lg font-semibold py-2">Simpan Profil</button>
+        <button type="submit" className="bg-birumuda hover:bg-blue-600 text-white text-center w-full rounded-lg font-semibold py-2">Simpan Profil</button>
     </form>
 
 

@@ -31,7 +31,7 @@ const UserActifity = () => {
     return (
         <>
             <div className="w-ful py-36 px-1 sm:px-3 md:px-5  lg:px-11 lg:py-10 ">
-                <h1 className="text-purple-600 font-bold text-2xl text-center mb-4 md:text-6xl md:mb-8 lg:mb-14">USERS ACTIFITY</h1>
+                <h1 className="text-black font-serif text-2xl text-center mb-4 md:text-6xl md:mb-8 lg:mb-14">USERS ACTIFITY</h1>
                 <div className="w-full">
                     <table className="table-auto border-separate border border-slate-400 bg-white text-center w-full">
                         <thead>

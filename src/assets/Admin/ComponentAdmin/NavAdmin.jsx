@@ -23,7 +23,7 @@ const NavAdmin = ({ setDisplay }) => {
 
     return (
         <>
-            <nav className="w-full py-4 fixed top-0 left-0 right-0 bg-sky-500 px-8">
+            <nav className="w-full py-4 fixed top-0 left-0 right-0 bg-birutua">
                 <div className="w-full flex justify-between items-center">
                     <div>
                         <img src="logonav.png" className="w-20" alt="Logo" />
