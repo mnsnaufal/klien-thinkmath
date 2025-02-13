@@ -18,6 +18,7 @@ export default function FormRegister() {
         // Arahkan ke homepage
         navigate("/homepage");
     };
+    //http://localhost:4000
     const handleSubmit = (e) => {
         e.preventDefault()
         axios.post("https://admin-thinkmath.vercel.app/user/register", { username, email, password, notlp })

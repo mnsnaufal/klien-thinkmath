@@ -8,7 +8,7 @@ const NavAdmin = ({ setDisplay }) => {
 
     const handleLogout = () => {
         localStorage.removeItem("token");
-        axios.get('http://localhost:4000/admin/logout')
+        axios.get('https://admin-thinkmath.vercel.app/admin/logout')
             .then(res => {
                 if (res.data.status) {
                     navigate('/adminLogin');
