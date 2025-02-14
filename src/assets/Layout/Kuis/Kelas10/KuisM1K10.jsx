@@ -129,16 +129,16 @@ export default function KuisM1K10() {
                                     Berikut penjelasan no 1 - 10 secara berurut :
                                 </h1>
                                 {[
-                                    "../../../../../public/quiz/qbil1.png", // Path gambar dari folder public
-                                    "../../../../../public/quiz/qbil2.png",
-                                    "../../../../../public/quiz/qbil3.png",
-                                    "../../../../../public/quiz/qbil4.png",
-                                    "../../../../../public/quiz/qbil5.png",
-                                    "../../../../../public/quiz/qbil6.png",
-                                    "../../../../../public/quiz/qbil7.png",
-                                    "../../../../../public/quiz/qbil8.png",
-                                    "../../../../../public/quiz/qbil9.png",
-                                    "../../../../../public/quiz/qbil10.png"
+                                    "/quiz/qbil1.png", // Path gambar dari folder public
+                                    "/quiz/qbil2.png",
+                                    "/quiz/qbil3.png",
+                                    "/quiz/qbil4.png",
+                                    "/quiz/qbil5.png",
+                                    "/quiz/qbil6.png",
+                                    "/quiz/qbil7.png",
+                                    "/quiz/qbil8.png",
+                                    "/quiz/qbil9.png",
+                                    "/quiz/qbil10.png"
                                 ].map((link, index) => (
                                     <img
                                         key={index}
