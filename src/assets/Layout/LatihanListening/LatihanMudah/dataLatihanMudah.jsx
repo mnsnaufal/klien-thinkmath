@@ -24,7 +24,7 @@ export const dataLatihanMudah = [
     // 3
     {
         question: 'Perhatikan diagram panah di bawah ini! Relasi dari himpunan A ke himpunan B yang sesuai dengan diagram panah tersebut adalah ...',
-        image: '../../../../../public/qhim1.jpeg',
+        image: '/qhim1.jpeg',
         options: [
             "kurang dari",
             "kelipatan dua dari",
@@ -58,7 +58,7 @@ export const dataLatihanMudah = [
     //6
     {
         question: 'Jawab dengan benar pada gambar berikut: ',
-        image: '../../../../../public/plsv1.jpeg',
+        image: '/plsv1.jpeg',
         options: [
             "n = 5",
             "n = 6",

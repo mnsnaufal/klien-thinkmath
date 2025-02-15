@@ -251,7 +251,7 @@ export const dataM3K11 = [
     // 3
     {
         question: 'Panjang PQ pada gambar di bawah adalah ...',
-        image: '../../../../../public/quiz/qtp3.jpeg',
+        image: '/quiz/qtp3.jpeg',
         options: [
             "8 cm",
             "9 cm",
@@ -263,7 +263,7 @@ export const dataM3K11 = [
     // 4
     {
         question: 'Panjang C D gambar berikut adalah ...',
-        image: '../../../../../public/quiz/qtp4.jpeg',
+        image: '/quiz/qtp4.jpeg',
         options: [
             "20 cm",
             "25 cm",
@@ -571,7 +571,7 @@ export const dataM6K11 = [
     // 1
     {
         question: 'Perhatikan diagram panah di bawah ini! Relasi dari himpunan P ke himpunan Q adalah ...',
-        image: '../../../../../public/quiz/qrel1.jpeg',
+        image: '/quiz/qrel1.jpeg',
         options: [
             'faktor dari',
             'lebih dari',

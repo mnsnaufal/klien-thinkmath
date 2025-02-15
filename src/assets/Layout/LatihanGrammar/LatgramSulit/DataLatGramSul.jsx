@@ -35,7 +35,7 @@ export const DataLatGramSul = [
     // 4
     {
         question: 'Jawab dengan benar pada gambar berikut: ',
-        image: '../../../../../public/pec4.jpeg',
+        image: '/pec4.jpeg',
         options: [
             "4,04",
             "4,4",
@@ -47,7 +47,7 @@ export const DataLatGramSul = [
     // 5
     {
         question: 'Jawab dengan benar pada gambar berikut: ',
-        image: '../../../../../public/pec5.jpeg',
+        image: '/pec5.jpeg',
         options: [
             "25%",
             "34%",

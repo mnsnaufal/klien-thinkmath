@@ -35,7 +35,7 @@ export const DataLatGramMud = [
     // 4
     {
         question: 'Jawab dengan benar pada gambar berikut: ',
-        image: '../../../../../public/pec1.jpeg',
+        image: '/pec1.jpeg',
         options: [
             "18/24",
             "6/16",
@@ -47,7 +47,7 @@ export const DataLatGramMud = [
     // 5
     {
         question: 'Jawab dengan benar pada gambar berikut: ',
-        image: '../../../../../public/pec2.jpeg',
+        image: '/pec2.jpeg',
         options: [
             "-14/15",
             "-2/7",
@@ -59,7 +59,7 @@ export const DataLatGramMud = [
     // 6
     {
         question: 'Jawab dengan benar pada gambar berikut: ',
-        image: '../../../../../public/pec3.jpeg',
+        image: '/pec3.jpeg',
         options: [
             "5/12",
             "2 1/6",

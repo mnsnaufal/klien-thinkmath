@@ -13,7 +13,7 @@ export const DataLatSulit = [
     // 2
     {
         question: 'Jawab dengan benar pada gambar berikut: ',
-        image: '../../../../../public/rel1.jpeg',
+        image: '/rel1.jpeg',
         options: [
             '4',
             '8',

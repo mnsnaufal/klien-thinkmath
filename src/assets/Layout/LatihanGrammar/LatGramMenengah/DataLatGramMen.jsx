@@ -24,7 +24,7 @@ export const DataLatGramMen = [
     // 3
     {
         question: 'Jawab dengan benar pada gambar berikut: ',
-        image: '../../../../../public/bilbul1.jpeg',
+        image: '/bilbul1.jpeg',
         options: [
             "22",
             "18",

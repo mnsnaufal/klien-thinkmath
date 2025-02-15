@@ -116,7 +116,7 @@ export const dataM2K10 = [
     //1
     {
         question: 'Pecahan yang sesuai dengan gambar di bawah adalah : ',
-        image: '../../../../../public/mpec1.png',
+        image: '/mpec1.png',
         options: [
             "3/4",
             "3/8",
@@ -128,7 +128,7 @@ export const dataM2K10 = [
     //2
     {
         question: 'Pecahan yang mewakili daerah arsiran pada gambar di bawah ini adalah : ',
-        image: '../../../../../public/mpec2.png',
+        image: '/mpec2.png',
         options: [
             "1/12",
             "1/6",

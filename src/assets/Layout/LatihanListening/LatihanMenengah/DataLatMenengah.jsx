@@ -46,7 +46,7 @@ export const DataLatMenengah = [
     // 5
     {
         question: "Jawab dengan benar pada gambar berikut: ",
-        image: '../../../../../public/plsv2.jpeg',
+        image: '/plsv2.jpeg',
         options: [
             "x = 6",
             "x = 4",
@@ -58,7 +58,7 @@ export const DataLatMenengah = [
     //6
     {
         question: 'Jawab dengan benar pada gambar berikut: ',
-        image: '../../../../../public/plsv3.jpeg',
+        image: '/plsv3.jpeg',
         options: [
             "-16",
             "-4",

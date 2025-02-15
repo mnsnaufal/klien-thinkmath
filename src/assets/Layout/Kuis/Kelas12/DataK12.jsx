@@ -115,7 +115,7 @@ export const dataM2K12 = [
     // 1
     {
         question: 'Bangun yang diarsir pada gambar di bawah ini desebut ... ',
-        image: '../../../../../public/bangun1.jpeg',
+        image: '/bangun1.jpeg',
         options: [
             "bidang diagonal",
             "diagonal bidang",
