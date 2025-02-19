@@ -1,7 +1,3 @@
-import { Link, useNavigate } from "react-router-dom";
-import { useState } from "react";
-import axios from 'axios';
-
 export default function FormForgotPass() {
     const [email, setEmail] = useState('');
     const navigate = useNavigate();
@@ -22,10 +18,11 @@ export default function FormForgotPass() {
                 console.log(err);
                 alert("Terjadi kesalahan, coba lagi nanti");
             });
-    }
+    };
+
     return (
-        <div className="flex flex-wrap justify-center px-5 sm:px-10 md:px-20 bg-birumuda min-h-screen font-main">
-            <div className="w-full sm:w-4/5 md:w-1/2 lg:w-2/5 border-2 rounded-2xl px-6 bg-white my-20 sm:my-30 md:my-40 py-5">
+        <div className="flex items-center justify-center h-screen px-5 sm:px-10 md:px-20 bg-birumuda font-main">
+            <div className="w-full sm:w-4/5 md:w-1/2 lg:w-2/5 border-2 rounded-2xl px-6 bg-white py-5">
                 <div className="mb-5">
                     <h1 className="text-center text-lg sm:text-xl font-semibold">Masukan E-mail anda.</h1>
                     <h1 className="text-center text-sm sm:text-base">Dan kami akan mengirimkan Link agar anda bisa masuk kembali ke akun anda.</h1>
@@ -56,5 +53,5 @@ export default function FormForgotPass() {
                 </div>
             </div>
         </div>
-    )
+    );
 }
